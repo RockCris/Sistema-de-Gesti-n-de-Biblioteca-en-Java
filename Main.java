@@ -25,8 +25,8 @@ public class Main {
                 opcion = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Error: Entrada inválida. Por favor, ingrese un número válido.");
-                scanner.nextLine(); // Limpiar el buffer de entrada
-                continue; // Volver al inicio del bucle
+                scanner.nextLine(); 
+                continue; 
             }
 
             switch (opcion) {
@@ -42,7 +42,7 @@ public class Main {
                         anioPublicacion = scanner.nextInt();
                     } catch (InputMismatchException e) {
                         System.out.println("Error: Entrada inválida. Por favor, ingrese un año válido.");
-                        scanner.nextLine(); // Limpiar el buffer de entrada
+                        scanner.nextLine(); 
                         break;
                     }
                     biblioteca.agregarLibro(new Libro(titulo, autor, anioPublicacion));
@@ -50,7 +50,7 @@ public class Main {
                     break;
                 case 2:
                     System.out.print("\nIngrese el nombre del usuario: ");
-                    scanner.nextLine(); // Limpiar el buffer de entrada
+                    scanner.nextLine(); 
                     String nombreUsuario = scanner.nextLine();
                     System.out.print("Ingrese el identificador del usuario: ");
                     int identificadorUsuario;
@@ -58,11 +58,11 @@ public class Main {
                         identificadorUsuario = scanner.nextInt();
                     } catch (InputMismatchException e) {
                         System.out.println("Error: Entrada inválida. Por favor, ingrese un identificador válido.");
-                        scanner.nextLine(); // Limpiar el buffer de entrada
+                        scanner.nextLine();
                         break;
                     }
                     System.out.print("Ingrese el título del libro a prestar: ");
-                    scanner.nextLine(); // Limpiar el buffer de entrada
+                    scanner.nextLine(); 
                     String tituloPrestamo = scanner.nextLine();
                 
                     // Buscar el libro en la lista de libros disponibles
@@ -84,7 +84,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.print("\nIngrese el título del libro a devolver: ");
-                    scanner.nextLine(); // Limpiar el buffer de entrada
+                    scanner.nextLine(); 
                     String tituloDevolucion = scanner.nextLine();
                 
                     // Buscar el libro en la lista de libros prestados
