@@ -14,7 +14,7 @@ Este es un proyecto de un sistema simple de gestión de biblioteca implementado 
 2. **Compilar el Código:**  
 Abre una terminal, navega hasta el directorio del proyecto y compila todas las clases Java ejecutando el siguiente comando:
 
-   **"javac *.java"**
+   --"javac *.java"--
 
 
 3. **Ejecutar el Programa:**  
