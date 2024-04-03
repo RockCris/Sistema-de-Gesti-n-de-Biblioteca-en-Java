@@ -9,20 +9,18 @@ Este es un proyecto de un sistema simple de gestión de biblioteca implementado 
 
 ## Iniciar el Proyecto
 
-1. **Clonar el Repositorio:**  
-   Clona este repositorio en tu máquina local utilizando el siguiente comando:
-
+1. **Clonar el Repositorio**  
 
 2. **Compilar el Código:**  
 Abre una terminal, navega hasta el directorio del proyecto y compila todas las clases Java ejecutando el siguiente comando:
 
---"javac *.java"---
+**"javac *.java"**
 
 
 3. **Ejecutar el Programa:**  
 Después de compilar el código, ejecuta el programa con el siguiente comando:
 
----"java Main---
+**"java Main**
 
 
 
